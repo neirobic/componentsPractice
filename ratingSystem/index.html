@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang=""en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Your description goes here">
+        <meta name="keywords" content="one, two, three">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Rating System</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="stylesheets/reset.css">
+		<link rel="stylesheet" href="stylesheets/style.css">
+    </head>
+    <body>
+        <main>
+            <section class = "intro">
+                <div class="image"><img scr="#" alt="star icon"></div>
+                <h1>How did you like &ltit&gt?</h1>
+                <p>Let everybody know what you thought about &ltthe thing&gt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, iusto alfaghetti!</p>
+            </section>
+            <form class="ratings-form">
+                <!--i wanna turn these into stars later-->
+                <div class="ratings">
+                    <label for="rating-1" id="label-1">1
+                        <input id="rating-1" type="radio" name="ratings"/>
+                    </label>
+                    <label for="rating-2" id="label-2">2
+                        <input id="rating-2" type="radio" name="ratings"/>
+                    </label>
+                    <label for="rating-3" id="label-3">3
+                        <input id="rating-3" type="radio" name="ratings"/>
+                    </label>
+                    <label for="rating-4" id="label-4">4
+                        <input id="rating-4" type="radio" name="ratings"/>
+                    </label>
+                    <label for="rating-5" id="label-5">5
+                        <input id="rating-5" type="radio" name="ratings"/>
+                    </label>
+                </div>
+                <section class="rating-blurbs">
+                    <span class="rating-blurb">Not For Me</span>
+                    <span class="rating-blurb">Best Ever!</span>
+                </section>
+                <input type="submit" value="submit">
+            </form>
+        </main>
+        <script type="text/javascript" src="scripts/main.js"></script>
+    </body>
+</html>

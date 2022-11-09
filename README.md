@@ -1,1 +1,2 @@
-#COMPONENTS PRACTICE ##making simple one-off compoonents to polish my front-end skillz!
+# COMPONENTS PRACTICE
+## making simple one-off components to polish my front-end skillz
