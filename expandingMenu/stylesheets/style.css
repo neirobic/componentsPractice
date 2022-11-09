@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Baskerville, "Times New Roman", serif;
+    font-weight: 900;
+
+}
+
+body, div, nav, section {
+    display: flex;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(221, 27, 27), white);
+}
+
+/**basic nav set-up**/
+
+.nav-container{
+    width: 200px;
+    height:100px;
+    align-items: flex-start;
+}
+
+.nav {
+    width: auto;
+    height: auto;
+}
+
+.nav-collapsed, .nav-expanded{
+    width: 200px;;
+    height: auto;
+    border: 3px solid black;
+    box-shadow: 10px 10px black;
+    font-size: 2rem;
+}
+
+
+/**collapsed nav**/
+
+.nav-collapsed{
+    background-color: white;
+}
+
+.nav-collapsed p {
+    padding: 30px;
+    padding-left: 20px;
+}
+
+img {
+    background-color: orangered;
+}
+
+/**expanded nav**/
+.nav-expanded {
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+li {
+    padding: 2px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/**"hidden" class**/
+
+.hidden {
+    display: none;
+
+}
+
+
+
